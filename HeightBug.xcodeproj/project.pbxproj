@@ -13,6 +13,7 @@
 		8367B2031F798BD20083634E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8367B2011F798BD20083634E /* Main.storyboard */; };
 		8367B2051F798BD20083634E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8367B2041F798BD20083634E /* Assets.xcassets */; };
 		8367B2081F798BD20083634E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8367B2061F798BD20083634E /* LaunchScreen.storyboard */; };
+		8367B2101F798BDC0083634E /* SubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367B20F1F798BDC0083634E /* SubtitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8367B2041F798BD20083634E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8367B2071F798BD20083634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8367B2091F798BD20083634E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8367B20F1F798BDC0083634E /* SubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8367B2041F798BD20083634E /* Assets.xcassets */,
 				8367B2061F798BD20083634E /* LaunchScreen.storyboard */,
 				8367B2091F798BD20083634E /* Info.plist */,
+				8367B20F1F798BDC0083634E /* SubtitleCell.swift */,
 			);
 			path = HeightBug;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8367B2001F798BD20083634E /* DetailViewController.swift in Sources */,
+				8367B2101F798BDC0083634E /* SubtitleCell.swift in Sources */,
 				8367B1FE1F798BD20083634E /* MasterViewController.swift in Sources */,
 				8367B1FC1F798BD20083634E /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HeightBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.polutropon.HeightBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HeightBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.polutropon.HeightBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
